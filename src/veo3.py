@@ -1,7 +1,8 @@
 import time
 from google import genai
 from google.genai import types
-from moviepy.editor import VideoFileClip, TextClip, concatenate_videoclips, CompositeVideoClip
+# from moviepy.editor import VideoFileClip, TextClip, concatenate_videoclips, CompositeVideoClip
+from moviepy import VideoFileClip, TextClip, concatenate_videoclips, CompositeVideoClip
 import os
 
 # Google GenAI 클라이언트
